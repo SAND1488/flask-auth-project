@@ -1,0 +1,10 @@
+python -m venv venv
+source venv/Scripts/activate
+pip install flask
+pip install flask-sqlalchemy
+pip freeze > requirements.txt
+touch main.py
+mkdir templates
+touch templates/index.html
+touch templates/login.html
+touch templates/register.html
